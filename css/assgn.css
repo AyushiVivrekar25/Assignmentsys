@@ -1,0 +1,642 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;	
+    
+}
+body{
+      background-image: url("D:/Sys-Task/Assignment-01/images/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 400px;
+    height: 40p5x;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+.logo{
+    text-align: center;
+    top: auto;
+
+}
+.box input{
+    padding: 8px;
+    margin:3%;
+    border-radius:8px;
+    height: 25px;
+    /* margin-top: 20px; */
+    background-color:rgba(0, 0, 0, 0);
+     border-color: #fafafae6;
+      width: 300px;  
+      margin-top:35px; 
+      margin-left:20px;
+}
+
+#text1
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  /* margin-top: 5px;
+  margin-left: 3px; */
+  background-position: 15px;
+
+}
+#text2
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+
+::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.btn{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+    margin-top: 19px;
+    border: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+
+    a:visited {
+        color:#116ad9;
+      }
+
+
+      .under a:visited {
+        color:white;
+      }
+
+/* //////////////////////////////////////////////////////////////////////For SignUp page -->////////////////////////////////////////////////////////////////  */
+
+   .box1{
+    width: 400px;
+    height: 490px;
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+    .box1 input{
+      background-color:rgba(0, 0, 0, 0);
+       border-color: #fafafae6; 
+       width: 300px;  
+       margin-top:20px;
+        margin-left:25px;
+    }
+
+#text3
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  /* margin-top: 5px;
+  margin-left: 3px; */
+  background-position: 15px;
+
+}
+#text4
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+#text5
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+
+   .color a:visited {
+        color:#116ad9;
+      }
+
+
+      .under a:visited {
+        color:white;
+      }
+
+/* //////////////////////////////////////////////////////////////////////////////////For Otp page -->////////////////////////////////////////////////////// */
+
+.box2{
+    width: 400px;
+    height: 410px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+
+
+.btn1{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 345px;
+     margin-top: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+    margin-bottom: 10px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+    
+
+    .under a:visited {
+        color:white;
+        margin-top: 0px;
+      }
+
+/* //////////////////////////////////////////////////////////////////////////////For reset-password page -->///////////////////////////////////////////////////// */
+
+.box3{
+    width: 400px;
+    height: 325px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    /* margin-top:-50px;  */
+    margin-top:30px; 
+    margin-left:-100px;
+}
+.box3 input{
+  background-color:rgba(0, 0, 0, 0);
+   border-color: #fafafae6; 
+   width: 300px;  
+   margin-bottom:25px;
+    margin-left:20px;
+}
+
+#text6
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+
+
+.btn1{
+  background:linear-gradient(to right, #0a87c0, #4FC3F7);
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 345px;
+    border: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+    margin-bottom: 9px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+    
+
+    .under a:visited {
+        color:white;
+        margin-top: 0px;
+      }
+
+/* /////////////////////////////////////////////////////////////////////////////For  reset-password2 page -->///////////////////////////////////////////////// */
+
+
+.box4{
+    width: 350px;
+    height: 520px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-90px; 
+    margin-left:-100px;
+}
+.box4 input{
+  background-color:rgba(0, 0, 0, 0); 
+  border-color: #fafafae6;
+}
+#text7
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 260px;
+
+}
+#text8
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 260px;
+
+  
+
+
+}
+#text9
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+  width: 260px;
+
+
+}
+
+    input{
+    margin-bottom:15px;
+     margin-left:20px;
+     margin-top: 20px;
+     padding: 8px;
+    /* margin:3%; */
+    border-radius:8px;
+    height: 25px;
+    width:250px;
+    
+}
+
+.btn4{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 310px;
+     margin-top: 15px;
+   border: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+    margin-bottom: 0px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+    
+
+    .under a:visited {
+        color:white;
+        margin-top: 0px;
+      }
+
+
+  /* ///////////////////////////////////////////////////////////////////For login-page page -->/////////////////////////////////////////////////////////////////// */
+
+  .box5{
+    width: 400px;
+    height: 40p5x;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+.logo{
+    text-align: center;
+    top: auto;
+
+}
+input{
+    padding: 8px;
+    margin:3%;
+    border-radius:8px;
+    height: 25px;
+    /* margin-top: 20px; */
+    
+   
+}
+::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.btn{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 340px;
+    margin-top: 19px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+
+    a:visited {
+        color:#116ad9;
+      }
+
+
+      .under a:visited {
+        color:white;
+      }
+
+/* /////////////////////////////////////////////////////////////////////////////For Otp2 page -->//////////////////////////////////////////////////////////// */
+
+.box6{
+    width: 400px;
+    height: 405px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+
+
+.btn1{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 345px;
+     margin-top: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+    margin-bottom: 15px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+    
+
+    .under a:visited {
+        color:white;
+        margin-top: 0px;
+      }
+
+
+/* ////////////////////////////////////////////////////////////////For reset-password3 page -->///////////////////////////////////////////////////////////////// */
+
+.box7{
+    width: 400px;
+    height: 505px;
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-90px; 
+    margin-left:-100px;
+}
+
+    input{
+    margin-bottom:20px;
+     margin-left:20px;
+     margin-top: 20px;
+     padding: 8px;
+    border-radius:8px;
+    height: 25px;
+    width:340px;
+    
+}
+
+.btn3{
+    padding: 8px;
+    margin: 4%;
+    border-radius:8px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    width: 345px;
+     margin-top: 15px;
+    border: 0px;
+    margin-left:25px; 
+    opacity: 0.9;
+    margin-bottom: 0px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+    
+
+    .under a:visited {
+        color:white;
+        margin-top: 0px;
+      }
+
+/* /////////////////////////////////////////////////////////////////////For reset-password4 page -->////////////////////////////////////////////////////// */
+
+
+      .box8{
+        width: 400px;
+        height: 310px;
+        /* padding: 35px; */
+        border-radius: 25px;
+        border: 0.5px solid #eff1ec30;
+        background-color:#eceae714;
+        position:absolute;
+        top:30%;
+        left:45%;
+        /* margin-top:-50px;  */
+        margin-top:30px; 
+        margin-left:-100px;
+    }
+    
+ .box8 input {
+   background-color:rgba(0, 0, 0, 0);
+  border-color: #fafafae6;
+   width: 300px;  
+   margin-bottom:30px; 
+   margin-top:10px ; 
+   margin-left:25px;}
+    
+   #text10{
+    background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
+    position: left;
+    padding-left: 40px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+   }
+    .btn1{
+        padding: 8px;
+        margin: 4%;
+        border-radius:8px;
+        height: 40px;
+        color: white;
+        cursor: pointer;
+        width: 345px;
+         margin-top: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        margin-left:25px; 
+        opacity: 0.9;
+        margin-bottom: 9px;
+    
+      }
+      
+      .btn:hover {
+        opacity: 1;}
+        
+    
+        .under a:visited {
+            color:white;
+            margin-top: 0px;
+          }
+    
+
+/* /////////////////////////////////////////////////////////////////For SignUp2 page -->//////////////////////////////////////////////////////////////////////  */
+
+.box9{
+    width: 400px;
+    height: 440px;
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec30;
+    background-color:#eceae714;
+    position:absolute;
+    top:30%;
+    left:45%;
+    margin-top:-50px; 
+    margin-left:-100px;
+}
+.box9 input{
+  background-color:rgba(0, 0, 0, 0);
+   border-color: #fafafae6; 
+   width: 300px;  
+   margin-top:20px;
+    margin-left:25px;
+}
+
+#text11
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  /* margin-top: 5px;
+  margin-left: 3px; */
+  background-position: 15px;
+
+}
+#text12
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+#text13
+{
+  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
+  position: left;
+  padding-left: 40px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 15px;
+
+}
+ .color a:visited {
+        color:#116ad9;
+      }
+
+
+      .under a:visited {
+        color:white;
+      }
+  
+  
