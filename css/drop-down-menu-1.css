@@ -1,11 +1,35 @@
  .left {
   background-image:url("D:/Sys-Task/Assignment-01/images/BG.png");
-  padding: 10px;
-  width: 250px;
-  height: 710px;
-  background-position: -700px;
+  /* padding: 10px; */
+  width: 20%;
+  height: 700px;
+  /* background-position: -700px; */
   background-repeat: auto;
  }
+ .sidenav
+{
+height: 700px;
+
+}
+
+.sidecontent{
+display: grid;
+width: 100%;
+}
+.sidenavcontent {
+background-color:rgba(211, 211, 211, 0.301) ;
+color: white;
+}
+
+.sidecontent a{
+padding-top: 5px;
+font-size: 11.5px;
+text-decoration: none;
+padding-bottom: 5px;
+
+
+}
+
  .btn{
     width: 80px;
     height: 25px;
@@ -16,12 +40,13 @@
     margin-top: 400px;
     margin-left:70px ;
     }
-    .right {
+    .right1 {
   background-color:white;
   height: 80px;
-  margin-left: 270px;
-  width: 1240px;
-position: absolute;
+  float: right;
+   margin-left: 20%;  
+  /* width: 1240px;  */
+ position: absolute; 
 top:10px;
 border-bottom-color:#00000014;
 border-bottom-style: solid;
@@ -31,6 +56,11 @@ border-bottom-style: solid;
 width: 30px;
 padding-top: 25px;
 height: 30px;
+}
+.menu{
+  margin-left: 500px; 
+   margin-right: 350px; 
+   font-size: 20px;
 }
 
 .infocontent{

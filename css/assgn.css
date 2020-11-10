@@ -1,44 +1,194 @@
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;	
-    
+  font-family: 'lato', sans-serif;
+  font-size: 15px;
+  color: #fff;
+
 }
-body{
-      background-image: url("D:/Sys-Task/Assignment-01/images/BG.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+body html{
+margin: 0px;
+padding: 0px;
+
+}
+.bg{
+/* background: url("D:/Sys-Task/Assignment-01/images/BG.png"); */
+background-size: cover;
+position: fixed;
+height: 100vh;
+left: 0px;
+width: 100%; 
+background-repeat: no-repeat;
+}
+.form-container{
+    padding: 25px;
+    border-radius: 25px;
+    border: 0.5px solid #eff1ec9d;
+    background-color:#eceae714;
+    position: absolute;
+    top: 20vh;
+    width: 80%;
+    margin-left: 60px;
 }
 
-.box{
-    width: 400px;
-    height: 40p5x;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
+.form_logo{
+  margin: 5px auto 5px 40% ;
+  width: 100%;
+
+}
+ .form_logo img{
+
+  /* margin: 10px auto 10px auto; */
+  width:  20%;
+  
+  border-style: none;
+}
+.form-container .form-group{
+  margin: 0 20px 0px;
+  position: relative;
+}
+.form-container .form-control{
+  background-color:rgba(126, 120, 120, 0.281);
+  border-color: #fafafae6;
+    width:100%;
+    height: 50px;
+    border-radius: 8px;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+  .form-container .form-control::placeholder {
+    color: white;
+    font-size: 14px;
+  }
+ .form-container .btn{
+  
+    border-radius:8px;
+    height: 40px;
+    background:linear-gradient(to right, #0a87c0, #4FC3F7);
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    opacity: 0.9;
+  
+  }
+  .form-container .form-options{
+    margin: auto;
+    padding: 0;
+  
+    
+  }
+  .form-container .form-options li{
+         
+    list-style: none;
+    text-decoration: underline;
+  }
+  .form-container .form-options li a{
+    color: white;
+    margin: auto;
+    display: block;
+    text-decoration: underline;
+    margin-top: 10px;
+
+  }
+  
+  .btn:hover {
+    opacity: 1;}
+
+
+     @media only screen and (max-width:600px){
+        .form-container{
+          width: 60%;
+        }
+        .form_logo{
+          width: 80%;
+        }
+      } 
+      @media only screen and (max-width:450px){
+        .form-container{
+          width: 60%;
+        }
+        .form_logo{
+          width: 80%;
+        }
+      } 
+
+/* *{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+
+}
+body html{
+margin: 0px;
+padding: 0px;
+
+}
+.bg{
+background: url("D:/Sys-Task/Assignment-01/images/BG.png");
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+
+}
+.form-container{
+
+  border: 0.5px solid #eff1ec9d;
+  border-radius: 25px;
+  background-color:#eceae714;
+  margin-top:15vh; 
+
+
+  height: 500px;
+  width:400px ;
+
+}
+.form-group input{
+  background-color:rgba(126, 120, 120, 0.281);
+  border-color: #fafafae6; 
+   width: 350px; 
+  height: 40px;
+  border-radius: 8px;
+ margin-top: 25px;
+ margin: auto;
+}
+
+.form-group input::placeholder {
+  color: white;
+  font-size: 14px;
 }
 .logo{
     text-align: center;
     top: auto;
+}
 
+.button{
+  background:linear-gradient(to right, #0a87c0, #4FC3F7);
+  padding: 8px;
+  margin: 4%;
+  border-radius:8px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  width: 350px;
+  margin-top: 19px;
+  border: 0px;
+  margin-left:25px; 
+  opacity: 0.9;
 }
-.box input{
-    padding: 8px;
-    margin:3%;
-    border-radius:8px;
-    height: 25px;
-    /* margin-top: 20px; */
-    background-color:rgba(0, 0, 0, 0);
-     border-color: #fafafae6;
-      width: 300px;  
-      margin-top:35px; 
-      margin-left:20px;
-}
+
+.button:hover {
+  opacity: 1;}
+
+  .color a:visited {
+    color:#116ad9;
+  }
+
+
+  .under a:visited {
+    color:white;
+  } */
+
 
 #text1
 {
@@ -47,8 +197,6 @@ body{
   padding-left: 40px;
   background-size: 15px;
   background-repeat: no-repeat;
-  /* margin-top: 5px;
-  margin-left: 3px; */
   background-position: 15px;
 
 }
@@ -63,580 +211,36 @@ body{
 
 }
 
-::placeholder {
-    color: white;
-    font-size: 14px;
-}
-
-.btn{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 350px;
-    margin-top: 19px;
-    border: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-
-    a:visited {
-        color:#116ad9;
-      }
 
 
-      .under a:visited {
-        color:white;
-      }
 
 /* //////////////////////////////////////////////////////////////////////For SignUp page -->////////////////////////////////////////////////////////////////  */
 
-   .box1{
-    width: 400px;
-    height: 490px;
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
-}
-    .box1 input{
-      background-color:rgba(0, 0, 0, 0);
-       border-color: #fafafae6; 
-       width: 300px;  
-       margin-top:20px;
-        margin-left:25px;
-    }
+  /* //////////////////////////////////////////////////////////////////////////////////For Otp page -->////////////////////////////////////////////////////// */
 
-#text3
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  /* margin-top: 5px;
-  margin-left: 3px; */
-  background-position: 15px;
-
-}
-#text4
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-
-}
-#text5
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-
-}
-
-   .color a:visited {
-        color:#116ad9;
-      }
-
-
-      .under a:visited {
-        color:white;
-      }
-
-/* //////////////////////////////////////////////////////////////////////////////////For Otp page -->////////////////////////////////////////////////////// */
-
-.box2{
-    width: 400px;
-    height: 410px;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
-}
-
-
-.btn1{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 345px;
-     margin-top: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-    margin-bottom: 10px;
-
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-    
-
-    .under a:visited {
-        color:white;
-        margin-top: 0px;
-      }
 
 /* //////////////////////////////////////////////////////////////////////////////For reset-password page -->///////////////////////////////////////////////////// */
 
-.box3{
-    width: 400px;
-    height: 325px;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    /* margin-top:-50px;  */
-    margin-top:30px; 
-    margin-left:-100px;
-}
-.box3 input{
-  background-color:rgba(0, 0, 0, 0);
-   border-color: #fafafae6; 
-   width: 300px;  
-   margin-bottom:25px;
-    margin-left:20px;
-}
-
-#text6
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-
-}
-
-
-.btn1{
-  background:linear-gradient(to right, #0a87c0, #4FC3F7);
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 345px;
-    border: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-    margin-bottom: 9px;
-
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-    
-
-    .under a:visited {
-        color:white;
-        margin-top: 0px;
-      }
 
 /* /////////////////////////////////////////////////////////////////////////////For  reset-password2 page -->///////////////////////////////////////////////// */
 
 
-.box4{
-    width: 350px;
-    height: 520px;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-90px; 
-    margin-left:-100px;
-}
-.box4 input{
-  background-color:rgba(0, 0, 0, 0); 
-  border-color: #fafafae6;
-}
-#text7
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-  width: 260px;
-
-}
-#text8
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-  width: 260px;
-
-  
-
-
-}
-#text9
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-  width: 260px;
-
-
-}
-
-    input{
-    margin-bottom:15px;
-     margin-left:20px;
-     margin-top: 20px;
-     padding: 8px;
-    /* margin:3%; */
-    border-radius:8px;
-    height: 25px;
-    width:250px;
-    
-}
-
-.btn4{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 310px;
-     margin-top: 15px;
-   border: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-    margin-bottom: 0px;
-
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-    
-
-    .under a:visited {
-        color:white;
-        margin-top: 0px;
-      }
 
 
   /* ///////////////////////////////////////////////////////////////////For login-page page -->/////////////////////////////////////////////////////////////////// */
 
-  .box5{
-    width: 400px;
-    height: 40p5x;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
-}
-.logo{
-    text-align: center;
-    top: auto;
-
-}
-input{
-    padding: 8px;
-    margin:3%;
-    border-radius:8px;
-    height: 25px;
-    /* margin-top: 20px; */
-    
-   
-}
-::placeholder {
-    color: white;
-    font-size: 14px;
-}
-
-.btn{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 340px;
-    margin-top: 19px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-  }
   
-  .btn:hover {
-    opacity: 1;}
-
-    a:visited {
-        color:#116ad9;
-      }
-
-
-      .under a:visited {
-        color:white;
-      }
-
 /* /////////////////////////////////////////////////////////////////////////////For Otp2 page -->//////////////////////////////////////////////////////////// */
 
-.box6{
-    width: 400px;
-    height: 405px;
-    /* padding: 35px; */
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
-}
-
-
-.btn1{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 345px;
-     margin-top: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-    margin-bottom: 15px;
-
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-    
-
-    .under a:visited {
-        color:white;
-        margin-top: 0px;
-      }
 
 
 /* ////////////////////////////////////////////////////////////////For reset-password3 page -->///////////////////////////////////////////////////////////////// */
 
-.box7{
-    width: 400px;
-    height: 505px;
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-90px; 
-    margin-left:-100px;
-}
-
-    input{
-    margin-bottom:20px;
-     margin-left:20px;
-     margin-top: 20px;
-     padding: 8px;
-    border-radius:8px;
-    height: 25px;
-    width:340px;
-    
-}
-
-.btn3{
-    padding: 8px;
-    margin: 4%;
-    border-radius:8px;
-    height: 40px;
-    color: white;
-    cursor: pointer;
-    width: 345px;
-     margin-top: 15px;
-    border: 0px;
-    margin-left:25px; 
-    opacity: 0.9;
-    margin-bottom: 0px;
-
-  }
-  
-  .btn:hover {
-    opacity: 1;}
-    
-
-    .under a:visited {
-        color:white;
-        margin-top: 0px;
-      }
 
 /* /////////////////////////////////////////////////////////////////////For reset-password4 page -->////////////////////////////////////////////////////// */
 
 
-      .box8{
-        width: 400px;
-        height: 310px;
-        /* padding: 35px; */
-        border-radius: 25px;
-        border: 0.5px solid #eff1ec30;
-        background-color:#eceae714;
-        position:absolute;
-        top:30%;
-        left:45%;
-        /* margin-top:-50px;  */
-        margin-top:30px; 
-        margin-left:-100px;
-    }
-    
- .box8 input {
-   background-color:rgba(0, 0, 0, 0);
-  border-color: #fafafae6;
-   width: 300px;  
-   margin-bottom:30px; 
-   margin-top:10px ; 
-   margin-left:25px;}
-    
-   #text10{
-    background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
-    position: left;
-    padding-left: 40px;
-    background-size: 15px;
-    background-repeat: no-repeat;
-    background-position: 15px;
-
-   }
-    .btn1{
-        padding: 8px;
-        margin: 4%;
-        border-radius:8px;
-        height: 40px;
-        color: white;
-        cursor: pointer;
-        width: 345px;
-         margin-top: 0px;
-        border-top-width: 0px;
-        border-bottom-width: 0px;
-        margin-left:25px; 
-        opacity: 0.9;
-        margin-bottom: 9px;
-    
-      }
-      
-      .btn:hover {
-        opacity: 1;}
-        
-    
-        .under a:visited {
-            color:white;
-            margin-top: 0px;
-          }
-    
+          
 
 /* /////////////////////////////////////////////////////////////////For SignUp2 page -->//////////////////////////////////////////////////////////////////////  */
 
-.box9{
-    width: 400px;
-    height: 440px;
-    border-radius: 25px;
-    border: 0.5px solid #eff1ec30;
-    background-color:#eceae714;
-    position:absolute;
-    top:30%;
-    left:45%;
-    margin-top:-50px; 
-    margin-left:-100px;
-}
-.box9 input{
-  background-color:rgba(0, 0, 0, 0);
-   border-color: #fafafae6; 
-   width: 300px;  
-   margin-top:20px;
-    margin-left:25px;
-}
-
-#text11
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/nameicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  /* margin-top: 5px;
-  margin-left: 3px; */
-  background-position: 15px;
-
-}
-#text12
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/emailicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-
-}
-#text13
-{
-  background-image:url("D:/Sys-Task/Assignment-01/images/passwordicon.png");
-  position: left;
-  padding-left: 40px;
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: 15px;
-
-}
- .color a:visited {
-        color:#116ad9;
-      }
-
-
-      .under a:visited {
-        color:white;
-      }
-  
-  
